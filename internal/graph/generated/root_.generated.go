@@ -33,7 +33,6 @@ type Config struct {
 
 type ResolverRoot interface {
 	Query() QueryResolver
-	User() UserResolver
 }
 
 type DirectiveRoot struct {

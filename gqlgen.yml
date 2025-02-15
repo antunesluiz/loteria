@@ -117,8 +117,7 @@ call_argument_directives_with_null: true
 # gqlgen will search for any type names in the schema in these go packages
 # if they match it will use them, otherwise it will generate them.
 autobind:
-  - "github.com/antunesluiz/loteria/internal/graph/models"
-
+  - github.com/antunesluiz/loteria/internal/domain/entities
 # This section declares type mapping between the GraphQL and go type systems
 #
 # The first line in each type will be used as defaults for resolver arguments and
